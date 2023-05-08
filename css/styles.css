@@ -1,0 +1,30 @@
+.changer {
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    background: rgb(241, 241, 241);
+    width: 45vw;
+    height: 50vh;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgb(170, 169, 169);
+    transition: background-color .5s;
+}
+
+.items:hover {
+    background-color: white;
+    box-shadow: 10px 10px 15px rgb(178, 223, 235);
+}
+
+@media screen and (max-width: 640px){
+    .items {
+        width: 80vw;
+        height: 60vh;
+    }
+}
